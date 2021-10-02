@@ -1,0 +1,33 @@
+
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+#these are called Anchors - do not match any character, 
+#rather invisible positions b4 or after Characters
+\b      - Word Boundary         #<-Only matches thecharacters that come after a space.
+\B      - Not a Word Boundary   #<-Only matches the words that do not come after space.
+^       - Beginning of a String #<-Only if the word is at the beginning of the string.
+$       - End of a String       #<-Only matches the word at the end of the string
+
+#Character set: 
+[]      - Matches Characters in brackets     #<-Put what you want to look for inside.
+[^ ]    - Matches Characters NOT in brackets #<-This negates the condition inside the brackets
+|       - Either Or
+( )     - Group                              #<-Allows us to match several different patterns
+
+#Quantifiers:
+*       - 0 or More
++       - 1 or More       #<- To look for more characters after your initial character.
+?       - 0 or One        #<- This is to match either of them ex: re.compile(r'Mr\.?') will match with and without period after Mr 
+{3}     - Exact Number    #<- Matching excat number ex: re.compile(r'\d{3}') #<- This says that you want to match \d\d\d (3 digits)
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
