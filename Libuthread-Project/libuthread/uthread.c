@@ -11,8 +11,6 @@
 #include "uthread.h"
 
 
-
-
 enum state {READY = 0, BLOCKED = 1 , RUNNING = 2, ZOMBIE = 3};
 
 //Thread data structure definition
