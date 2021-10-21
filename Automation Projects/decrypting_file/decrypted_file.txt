@@ -1,0 +1,64 @@
+Alert :Crowdstrike Critical Severity Events
+Trigger Time : 1615298424
+Search String :
+_time :1/1/2021
+action : allowed
+status :allowed
+severity : Critical
+signature : Credential Theft
+vendor_product :Crowdstrike
+count :12
+direction :Inbound
+notable_id:22956
+--------------------
+src_host :QDF-f65DJ:sales
+src_ip : 8.8.8.8
+7.7.7.7
+22.22.22.22
+111.11.111.11
+12.12.12.12
+127.0.0.1
+src_port :139
+443
+80
+53
+23
+src_user :hacker
+src_owner :todd/:clinton
+src_bunit :Deloitte_Advisory
+src_category :Malware Defense and Control Monitoring
+--------------------
+dest_host : USDCHXZ_66578
+dest_ip : 6.6.6.6
+9.9.9.9:443
+33.33.33.33:8080
+dest_port :443
+dest_user :clinton
+Zun
+Mitch
+Manny
+dest_owner :Deloitte USI
+dest_bunit : FMS
+dest_category :User Activity Monitoring
+--------------------
+Event_user : Nessus Scan
+protocol :https
+file_name : cmd.exe
+file_hash : 93564hg7c84jd7cjsyw97vhcnshw79f9fjskdc
+file_path : \Device\Windows\System32
+url : https://crowdstrike.com/activity/detections/detail
+bytes :67
+sourcetype :N/A
+Index :deloitte_FMS
+host :N/A
+ext_domain : EQU PPEQU
+process : cmd /c copy /Y "\\?\GLOBALROOT\Device\\n\r--------------------
+--------------------
+_raw : Raw_Payloads
+Alert Title:Crowdstrike Critical Severity Events
+Alert Location:   https://splunkcloud.com:443/app/search
+----------------------------------------------------------------------------------------------------
+Additional Fields
+Admin_Domain,src_ip,dest_ip,count,first_event,last_event,Attack_Name,Sensor_Name,severity,src_host,dest_host,src_port,dest_port
+godaddy.com,255.254.253.252,6.6.6.6,1,Jan 3rd 2021,Jan 3rd 2021,Hack-the-box,Proofpoint,critifal,QDF-f65DJ:sales,USDCHXZ_667759,4444,80
+baidu.com,255.254.253.230,6.6.6.6,1,Jan 3rd 2021,Jan 3rd 2021,Hack-the-box,Proofpoint,critifal,QDF-f65DJ:sales,USDCHXZ_667730,38,80
