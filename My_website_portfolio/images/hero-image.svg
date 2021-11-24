@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="528" height="527" viewBox="0 0 528 527">
+  <g id="hero-image" transform="translate(-1035 -300)">
+    <rect class="square-anim" id="Rectangle_4" data-name="Rectangle 4" width="132" height="132" rx="27" transform="translate(1299 300)" fill="#425cc9"/>
+    <rect class="square-anim" id="Rectangle_5" data-name="Rectangle 5" width="132" height="132" rx="27" transform="translate(1167 432)" fill="#fff"/>
+    <rect class="square-anim" id="Rectangle_6" data-name="Rectangle 6" width="132" height="132" rx="27" transform="translate(1431 432)" fill="#425cc9" opacity="0.394"/>
+    <rect class="square-anim" id="Rectangle_7" data-name="Rectangle 7" width="132" height="132" rx="27" transform="translate(1035 563)" fill="#fff" opacity="0.476"/>
+    <rect class="square-anim" id="Rectangle_8" data-name="Rectangle 8" width="132" height="132" rx="27" transform="translate(1167 695)" fill="#fff"/>
+    <rect class="square-anim" id="Rectangle_9" data-name="Rectangle 9" width="132" height="132" rx="27" transform="translate(1299 564)" fill="#425cc9"/>
+    <ellipse class="square-anim" id="Ellipse_2" data-name="Ellipse 2" cx="66" cy="65.5" rx="66" ry="65.5" transform="translate(1167 564)" fill="#e4ccad"/>
+    <ellipse class="square-anim" id="Ellipse_3" data-name="Ellipse 3" cx="66" cy="65.5" rx="66" ry="65.5" transform="translate(1299 433)" fill="#6edcdb"/>
+  </g>
+</svg>

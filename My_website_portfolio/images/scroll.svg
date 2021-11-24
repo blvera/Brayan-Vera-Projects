@@ -1,0 +1,11 @@
+<svg width="41" height="69" viewBox="0 0 41 69">
+  <g id="scroll" transform="translate(-187 -765)">
+    <g id="scroll-2" data-name="scroll" transform="translate(187 765)">
+      <g id="Rectangle_3" data-name="Rectangle 3" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="6">
+        <rect width="41" height="69" rx="20.5" stroke="none"/>
+        <rect x="3" y="3" width="35" height="63" rx="17.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="9.5" cy="9.5" r="9.5" transform="translate(11 12)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
